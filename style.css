@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mike */
+.flag {
+  border: 2px solid black;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  margin: 20px;
+}
+
+.texasBlue {
+  position: absolute;
+  background-color: blue;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  z-index: 1;
+}
+.texasStarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texasWhite {
+  background-color: white;
+  display: inline-block;
+
+  float: right;
+  width: 100%;
+  height: 50%;
+}
+.texasRed {
+  background-color: red;
+  display: inline-block;
+  float: right;
+
+  width: 100%;
+  height: 50%;
+}
+.texasStar {
+  color: white;
+  font-size: 5rem;
+}
+
+/* espacio de jesusc*/
+
+.japon {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.color_rojo {
+  width: 25%;
+  height: 50%;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* España */
+.rojo_espana {
+  width: 100%;
+  height: 33%;
+  background-color: red;
+}
+.amarilo_espana {
+  width: 100%;
+  height: 34%;
+  background-color: yellow;
+}
+
+/* km alemania */
+.bandera {
+  background-color: #cccccc;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  float: left;
+}
+.b1 {
+  background-color: black;
+  height: 33.33%;
+}
+.b2 {
+  background-color: red;
+  height: 33.33%;
+}
+.b3 {
+  background-color: gold;
+  height: 33.33%;
+}
+/* km arabe */
+.k1 {
+  background-color: red;
+  width: 30%;
+  height: 100%;
+}
+.k2 {
+  background-color: green;
+}
